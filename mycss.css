@@ -5,10 +5,14 @@ body{
 }
 
 .seccion1{
-  background-color: aquamarine;
-  font-size: small;
+  background-color: rgb(184, 247, 225);
+  font-size: medium;
 
 }
+.imagen:hover {
+  filter: saturate(180%);
+}
+
 h2 {
     margin-top: 1em;
     padding-top: 1em;
