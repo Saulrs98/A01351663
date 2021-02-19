@@ -3,12 +3,32 @@ body{
   margin: 0 auto;
   max-width: 50em;
 }
+.titulo{
+  font-size: large;
+  text-align: center;
+}
 
 .seccion1{
   background-color: rgb(184, 247, 225);
   font-size: medium;
+}
+
+.seccion2{
+  background-color: rgb(102, 247, 196);
+  font-size: medium;
 
 }
+.seccion3{
+  background-color: rgb(8, 243, 161);
+  font-size: medium;
+
+}
+#git{
+  color:blue;
+  text-align: center;
+}
+
+
 .imagen:hover {
   filter: saturate(180%);
 }
