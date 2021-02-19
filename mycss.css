@@ -1,8 +1,41 @@
 body{
-    margin: 0 auto;
+  font-family: "Helvetica", "Arial", sans-serif;  
+  margin: 0 auto;
   max-width: 50em;
+}
+
+.seccion1{
+  background-color: aquamarine;
+  font-size: small;
+
 }
 h2 {
     margin-top: 1em;
     padding-top: 1em;
+  }
+  code,
+  pre {
+    background: rgb(245, 4, 4);
+  }
+  
+  code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+  }
+  
+  pre {
+    padding: 1em;
+  }
+  a {
+    color: #e81c4f;
+  }
+  header {
+    background-color: #263d36;
+    background-image: url("futbol.JPEG");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
   }
