@@ -10,10 +10,11 @@ const server=http.createServer((request,response) =>{
 	  	response.write('<html>');
 	  	response.write('<head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Lab10</title></head><body>');
 	  	response.write('<h1>Lab 10</h1>');
+        response.write('<br><h2>Los mejores jugadores de futbol</h2>');
 	  	response.write('<ul>');
-	  	response.write('<li><a href="/Escribe">Escribe</a></li>');
 	  	response.write('<li><a href="/Cristiano">Cristiano Ronaldo</a></li>');
 	  	response.write('<li><a href="/Messi">Messi</a></li>');
+        response.write('<li><a href="/Escribe">Genera archivo de texto</a></li>');
 	  	response.write('</ul>');
 	  	response.write('</body></html>');
 	  	response.end();
