@@ -1,0 +1,27 @@
+{
+  "name": "a01351663",
+  "version": "1.0.0",
+  "description": "Pagina web sesiones DAW-BD",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon Index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saulrs98/A01351663.git"
+  },
+  "author": "Saul Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saulrs98/A01351663/issues"
+  },
+  "homepage": "https://github.com/Saulrs98/A01351663#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
