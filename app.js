@@ -9,7 +9,11 @@ app.use('/jugadores', rutasJugadores);
 
 const bodyParser = require('body-parser');
 
+const path = require('path');
+
 app.use(bodyParser.urlencoded({extended: false}));
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 //Middleware
 app.use((request, response, next) => {

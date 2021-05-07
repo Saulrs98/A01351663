@@ -17,4 +17,4 @@ router.get('/', (request, response, next) => {
     response.sendFile(path.join(__dirname, '..', 'views', 'jugadores.html'));
 });
 
-module.exports = router; 
+module.exports = router;  
