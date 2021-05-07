@@ -37,7 +37,10 @@ router.get('/', (request, response, next) => {
             imagen: 'https://www.conmebol.com/sites/default/files/r9.jpg'
         }
     ];
-    response.render('jugadores', { jugadores: jugadores});
+    response.render('jugadores', { 
+        jugadores: jugadores,
+        titulo: "Jugadores"
+    });
 });
 
 module.exports = router;  
